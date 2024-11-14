@@ -1,0 +1,43 @@
+/* styles.css */
+
+body {
+  background-color: #f4f4f4; /* Color de fondo suave */
+  font-family: Arial, sans-serif; /* Tipografía clara y moderna */
+  margin: 0; /* Elimina márgenes predeterminados del navegador */
+  padding: 20px; /* Espaciado interno en el body */
+}
+
+h1 {
+  color: #333; /* Color oscuro para el encabezado */
+  text-align: center; /* Centra el texto del encabezado */
+  margin-bottom: 20px; /* Espacio debajo del encabezado */
+}
+
+p {
+  color: #666; /* Color gris claro para los párrafos */
+  line-height: 1.6; /* Mejora la legibilidad del texto */
+  text-align: center; /* Centra el texto de los párrafos */
+}
+
+nav {
+  margin: 20px 0; /* Espacio alrededor de la navegación */
+}
+
+ul {
+  list-style-type: none; /* Elimina el estilo de lista predeterminado */
+  padding: 0; /* Elimina el padding de la lista */
+  text-align: center; /* Centra la lista */
+}
+
+li {
+  margin: 10px 0; /* Espaciado entre elementos de lista */
+}
+
+a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #007bff; /* Color azul para los enlaces */
+  font-weight: bold; /* Estilo de texto en negrita */
+  padding: 10px 15px; /* Espaciado interno de los enlaces */
+  border-radius: 5px; /* Bordes redondeados para los enlaces */
+  transition: background-color 0.3s; /* Efecto de transición suave */
+}

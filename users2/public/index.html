@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hola</title>
+  <link rel="stylesheet" href="css/styles.css">  <!-- Asegúrate de enlazar el CSS -->
+</head>
+
+<body>
+  <div class="container">
+    <h1>prueba 1</h1>
+
+
+    <!-- Sección de formularios -->
+    <div class="form-section">
+      <!-- Formulario de creación de usuario -->
+      <section>
+        <h2>Crear Usuario</h2>
+        <form id="createUserForm">
+          <label>Nombre: <input type="text" id="name" required /></label>
+          <label>Email: <input type="email" id="email" required /></label>
+          <label>Contraseña: <input type="password" id="password" required /></label>
+          <button type="submit">Crear Usuario</button>
+        </form>
+
+
+        <div>
+          <!-- Formulario para cargar JSON -->
+          <h2>Cargar Datos desde Archivo JSON</h2>
+          <form id="uploadJsonForm" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".json" required />
+            <button type="submit">Cargar JSON</button>
+
+          </form>
+          <!-- Modal de Carga -->
+          <div id="loadingModal" class="modal">
+            <div class="modal-content">
+              <div class="loader"></div>
+              <p>Guardando datos, por favor espere...</p>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- Formulario de actualización de usuario -->
+      <section>
+        <h2>Actualizar Usuario</h2>
+        <form id="updateUserForm">
+          <label>ID de Usuario: <input type="number" id="userId" required /></label>
+          <label>Nombre: <input type="text" id="updateName" /></label>
+          <label>Email: <input type="email" id="updateEmail" /></label>
+          <label>Contraseña: <input type="password" id="updatePassword" /></label>
+          <button type="submit">Actualizar Usuario</button>
+        </form>
+      </section>
+    </div>
+
+    <!-- Listado de usuarios -->
+    <h2>Lista de Usuarios</h2>
+    <button type="button" class="list-button" onclick="fetchUsers()">Cargar Usuarios</button>
+    <div id="userList" class="user-list"></div>
+
+
+  </div>
+  <script src="js/script.js"></script> <!-- archivo JavaScript con el contenido de las acciones-->
+</body>
+
+</html>

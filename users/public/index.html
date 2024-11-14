@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD de Usuarios</title>
+    <style>
+        /* CSS integrado */
+        .user-card { margin-bottom: 1em; padding: 1em; border: 1px solid #ccc; }
+        .user-list { margin-top: 1em; }
+    </style>
+</head>
+<body>
+    <h1>CRUD de Usuarios</h1>
+
+    <!-- Formulario para crear usuario -->
+    <h2>Crear Usuario</h2>
+    <form id="createUserForm">
+        <label>Nombre: <input type="text" id="name" required /></label><br />
+        <label>Email: <input type="email" id="email" required /></label><br />
+        <label>Contraseña: <input type="password" id="password" required /></label><br />
+        <button type="submit">Crear Usuario</button>
+    </form>
+
+    <!-- Formulario para actualizar usuario -->
+    <h2>Actualizar Usuario</h2>
+    <form id="updateUserForm">
+        <label>ID de Usuario: <input type="number" id="userId" required /></label><br />
+        <label>Nombre: <input type="text" id="updateName" /></label><br />
+        <label>Email: <input type="email" id="updateEmail" /></label><br />
+        <label>Contraseña: <input type="password" id="updatePassword" /></label><br />
+        <button type="submit">Actualizar Usuario</button>
+    </form>
+
+    <!-- Botón para listar usuarios -->
+    <h2>Lista de Usuarios</h2>
+    <button onclick="fetchUsers()">Cargar Usuarios</button>
+    <div id="userList" class="user-list"></div>
+
+    <!-- JavaScript separado -->
+    <script src="app.js"></script>
+</body>
+</html>

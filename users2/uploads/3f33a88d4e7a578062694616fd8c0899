@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "name": "Juan Pérez",
+        "email": "juan.perez@example.com",
+        "password": "Password123",
+        "description": "Estudiante de Ingeniería Informática."
+    },
+    {
+        "id": 2,
+        "name": "María López",
+        "email": "maria.lopez@example.com",
+        "password": "Password123",
+        "description": "Desarrolladora web con experiencia en JavaScript."
+    },
+    {
+        "id": 3,
+        "name": "Carlos García",
+        "email": "carlos.garcia@example.com",
+        "password": "Password123",
+        "description": "Analista de datos y experto en Python."
+    },
+    {
+        "id": 4,
+        "name": "Ana Torres",
+        "email": "ana.torres@example.com",
+        "password": "Password123",
+        "description": "Diseñadora gráfica y especialista en UX/UI."
+    },
+    {
+        "id": 5,
+        "name": "Luis Martínez",
+        "email": "luis.martinez@example.com",
+        "password": "Password123",
+        "description": "Programador en C++ y C#."
+    },
+    {
+        "id": 6,
+        "name": "Sofía Hernández",
+        "email": "sofia.hernandez@example.com",
+        "password": "Password123",
+        "description": "Ingeniera de software en una startup."
+    },
+    {
+        "id": 7,
+        "name": "Diego Sánchez",
+        "email": "diego.sanchez@example.com",
+        "password": "Password123",
+        "description": "Especialista en redes y seguridad informática."
+    },
+    {
+        "id": 8,
+        "name": "Laura Jiménez",
+        "email": "laura.jimenez@example.com",
+        "password": "Password123",
+        "description": "Experta en gestión de proyectos tecnológicos."
+    },
+    {
+        "id": 9,
+        "name": "José Rodríguez",
+        "email": "jose.rodriguez@example.com",
+        "password": "Password123",
+        "description": "Desarrollador móvil en Android."
+    },
+    {
+        "id": 10,
+        "name": "Marta Ruiz",
+        "email": "marta.ruiz@example.com",
+        "password": "Password123",
+        "description": "Profesora de programación y robótica."
+    },
+    {
+        "id": 11,
+        "name": "Fernando Morales",
+        "email": "fernando.morales@example.com",
+        "password": "Password123",
+        "description": "Experto en inteligencia artificial."
+    },
+    {
+        "id": 12,
+        "name": "Claudia Castro",
+        "email": "claudia.castro@example.com",
+        "password": "Password123",
+        "description": "Investigadora en el área de Big Data."
+    },
+    {
+        "id": 13,
+        "name": "Andrés Ortega",
+        "email": "andres.ortega@example.com",
+        "password": "Password123",
+        "description": "Desarrollador backend con experiencia en Node.js."
+    },
+    {
+        "id": 14,
+        "name": "Verónica Díaz",
+        "email": "veronica.diaz@example.com",
+        "password": "Password123",
+        "description": "Ingeniera de sistemas en una empresa de telecomunicaciones."
+    }
+]
