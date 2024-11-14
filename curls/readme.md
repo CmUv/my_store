@@ -53,19 +53,18 @@ POST /users
 
 
 curl -X POST http://localhost:3000/users -H "Content-Type: application/json" -d '{
-  "name": "John Doe",
-  "email": "johndoe@example.com",
+  "name": "Carlos Ureña",
+  "email": "curena@example.com",
   "password": "123456"
 }'
 4. Actualizar un usuario existente
 PUT /users/
 
-Ejemplo (actualizar el usuario con ID 1):
+Ejemplo (actualizar el usuario con ID 2):
 
-
-curl -X PUT http://localhost:3000/users/1 -H "Content-Type: application/json" -d '{
-  "name": "John Updated",
-  "email": "johnupdated@example.com"
+curl -X PUT http://localhost:3000/users/2 -H "Content-Type: application/json" -d '{
+  "name": "Carlos Updated",
+  "email": "updatemail@example.com"
 }'
 5. Eliminar un usuario
 DELETE /users/
